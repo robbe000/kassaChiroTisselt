@@ -1,0 +1,44 @@
+Cava; 3.00
+Fles Cava; 13.00
+Porto; 2.70
+Mosselen groot Friet; 20.00
+Mosselen groot Brood; 20.00
+Mosselen klein Friet; 14.00
+Mosselen klein Brood; 14.00
+Vol Au Vent groot Friet; 13.00
+Vol Au Vent groot Brood; 13.00
+Vol Au Vent klein Friet; 8.00
+Vol Au Vent klein Brood; 8.00
+Vegie Vol Au Vent groot; 13.00
+Vegie Vol Au Vent klein; 8.00
+Kinderijs; 2.00
+Dame blanche; 3.00
+Dame blanche slagroom; 3.50
+Advocaat; 3.00
+Advocaat slagroom; 3.50
+Witte Wijn Glas; 2.70
+Witte Wijn Fles; 12.00
+Rode Wijn Glas; 2.70
+Rode Wijn Fles; 12.00
+Pils; 1.60
+Vedett; 2.00
+Kriek; 2.00
+Palm; 1.60
+Cornet; 2.50
+Westmalle tripel blond; 2.50
+Westmalle dubbel bruin; 2.50
+Duvel; 2.50
+Water Plat; 1.60
+Water Bruis; 1.60
+Cola; 1.60
+Cola Zero; 1.60
+Fanta; 1.60
+Ice Thee; 1.60
+Fruitsap; 1.60
+Tonic; 1.60
+Koffie; 1.60
+Deca Koffie; 1.60
+Thee Citroen; 1.60
+Rozenbottelthee; 1.60
+Verwen Koffie; 6.00
+Mosselbon; -5.00
