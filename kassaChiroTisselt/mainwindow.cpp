@@ -44,11 +44,38 @@ void MainWindow::updateMenu()
     //Menu file openen
     if(!file.open(QIODevice::ReadOnly))
     {
-        QMessageBox::warning(0, "Error!", "Kon hoofdmenu file niet openen!");
+        QMessageBox::warning(0, "Error!", "Kon hoofdmenu file niet openen! Maak een file aan genaamd menu.txt en plaats deze in dezelfde dir als deze software. Structuur: NAAM; PRIJS -> 1 product per lijn.");
+        this->close();
+        exit(100);
         return;
     }
-
     QTextStream in(&file);
+
+        //Kijken of log files bestaan.
+        QFile logFile("log.txt");
+        QFile logMenuFile("aantalMenu.txt");
+        if(!logFile.open(QIODevice::ReadOnly)) {
+            QMessageBox::warning(0, "Error", "Er werd geen log file gevonden! Er zal automatisch een leeg bestand aangmaakt worden.");
+            logFile.open(QIODevice::ReadWrite | QIODevice::Text);
+        }
+        if(!logMenuFile.open(QIODevice::ReadOnly)) {
+            QMessageBox::warning(0, "Error", "Kon aantalmenu log file niet vinden! Er zal automatisch een blanco bestand aangemaakt worden.");
+            logMenuFile.open(QIODevice::ReadWrite | QIODevice::Text);
+
+            int teller = 0;
+            QString buffer;
+
+            while(!in.atEnd()) {
+                buffer = in.readLine();
+                if(buffer != "") {
+                    teller++;
+                }
+            }
+            for(int i=0;i<teller;i++) {
+                logMenuFile.write("0\n");
+            }
+        }
+        in.reset();
 
     //Menu inlezen en wegschrijven naar lijst.
     while(!in.atEnd())
@@ -192,4 +219,9 @@ void MainWindow::on_actionLogs_verwijderen_triggered()
 {
     Verwijderen *verw = new Verwijderen();
     verw->show();
+}
+
+void MainWindow::on_actionMake_Backup_triggered()
+{
+    Backup *back = new Backup();
 }

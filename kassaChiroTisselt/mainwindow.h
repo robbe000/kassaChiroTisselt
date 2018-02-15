@@ -6,6 +6,7 @@
 #include "menu.h"
 #include "logScherm.h"
 #include "afrekenen.h"
+#include "backup.h"
 #include <QFile>
 #include <QMessageBox>
 #include <QTextStream>
@@ -40,6 +41,8 @@ private slots:
     void on_actionLog_triggered();
 
     void on_actionLogs_verwijderen_triggered();
+
+    void on_actionMake_Backup_triggered();
 
 private:
     Ui::MainWindow *ui;

@@ -1,0 +1,17 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\menu.o
+./debug\aantallen.o
+./debug\logscherm.o
+./debug\afrekenen.o
+./debug\verwijderen.o
+./debug\backup.o
+./debug\moc_mainwindow.o
+./debug\moc_menu.o
+./debug\moc_aantallen.o
+./debug\moc_logscherm.o
+./debug\moc_afrekenen.o
+./debug\moc_verwijderen.o
+./debug\moc_backup.o
+);

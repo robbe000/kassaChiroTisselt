@@ -20,14 +20,16 @@ SOURCES += main.cpp\
     aantallen.cpp \
     logscherm.cpp \
     afrekenen.cpp \
-    verwijderen.cpp
+    verwijderen.cpp \
+    backup.cpp
 
 HEADERS  += mainwindow.h \
     menu.h \
     aantallen.h \
     logscherm.h \
     afrekenen.h \
-    verwijderen.h
+    verwijderen.h \
+    backup.h
 
 FORMS    += mainwindow.ui \
     menu.ui \
