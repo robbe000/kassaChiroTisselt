@@ -20,6 +20,8 @@ public:
 private slots:
     void on_berekenen_clicked();
 
+    void on_pushButton_clicked();
+
 private:
     Ui::afrekenen *ui;
     double m_prijs;

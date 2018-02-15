@@ -19,16 +19,19 @@ SOURCES += main.cpp\
     menu.cpp \
     aantallen.cpp \
     logscherm.cpp \
-    afrekenen.cpp
+    afrekenen.cpp \
+    verwijderen.cpp
 
 HEADERS  += mainwindow.h \
     menu.h \
     aantallen.h \
     logscherm.h \
-    afrekenen.h
+    afrekenen.h \
+    verwijderen.h
 
 FORMS    += mainwindow.ui \
     menu.ui \
     aantallen.ui \
     logscherm.ui \
-    afrekenen.ui
+    afrekenen.ui \
+    verwijderen.ui

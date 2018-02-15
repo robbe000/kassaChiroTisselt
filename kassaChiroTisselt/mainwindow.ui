@@ -65,6 +65,7 @@
      <string>Opties</string>
     </property>
     <addaction name="actionMenu_aanpassen"/>
+    <addaction name="actionLogs_verwijderen"/>
    </widget>
    <widget class="QMenu" name="menuStats">
     <property name="title">
@@ -98,6 +99,11 @@
   <action name="actionLog">
    <property name="text">
     <string>Log</string>
+   </property>
+  </action>
+  <action name="actionLogs_verwijderen">
+   <property name="text">
+    <string>Logs verwijderen</string>
    </property>
   </action>
  </widget>

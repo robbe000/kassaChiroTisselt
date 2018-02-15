@@ -39,6 +39,8 @@ private slots:
 
     void on_actionLog_triggered();
 
+    void on_actionLogs_verwijderen_triggered();
+
 private:
     Ui::MainWindow *ui;
     QList<QLineEdit*> m_aantal;

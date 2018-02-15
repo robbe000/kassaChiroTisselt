@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "aantallen.h"
+#include "verwijderen.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -185,4 +186,10 @@ void MainWindow::on_actionLog_triggered()
 {
     logScherm *menuLog = new logScherm;
     menuLog->show();
+}
+
+void MainWindow::on_actionLogs_verwijderen_triggered()
+{
+    Verwijderen *verw = new Verwijderen();
+    verw->show();
 }

@@ -31,3 +31,8 @@ void afrekenen::on_berekenen_clicked()
     strcat(cTerug, " euro");
     this->ui->terug->setText(cTerug);
 }
+
+void afrekenen::on_pushButton_clicked()
+{
+    this->close();
+}

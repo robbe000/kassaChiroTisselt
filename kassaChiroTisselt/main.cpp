@@ -9,3 +9,8 @@ int main(int argc, char *argv[])
 
     return a.exec();
 }
+
+/* ToDo:
+    -Checken dat de juiste bestanden bestaan bij opstart, zo niet: genereren.
+    -Backup mogenlijkheid voorzien
+*/

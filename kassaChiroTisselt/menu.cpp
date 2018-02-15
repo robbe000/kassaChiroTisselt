@@ -9,7 +9,7 @@ menu::menu(QWidget *parent) :
     ui(new Ui::menu)
 {
     ui->setupUi(this);
-    this->setWindowTitle("Menu bewerken");
+    this->setWindowTitle("Menu bewerken (WERKT NOG NIET)");
     updateMenu();
 }
 
