@@ -67,6 +67,8 @@
     <addaction name="actionMenu_aanpassen"/>
     <addaction name="actionLogs_verwijderen"/>
     <addaction name="actionMake_Backup"/>
+    <addaction name="separator"/>
+    <addaction name="actionSluiten"/>
    </widget>
    <widget class="QMenu" name="menuStats">
     <property name="title">
@@ -110,6 +112,11 @@
   <action name="actionMake_Backup">
    <property name="text">
     <string>Make Backup</string>
+   </property>
+  </action>
+  <action name="actionSluiten">
+   <property name="text">
+    <string>Sluiten</string>
    </property>
   </action>
  </widget>

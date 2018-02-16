@@ -27,7 +27,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit"/>
+      <widget class="QLineEdit" name="addNaam"/>
      </item>
      <item>
       <widget class="QLabel" name="label_2">
@@ -37,7 +37,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_2"/>
+      <widget class="QLineEdit" name="addPrijs"/>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton">
@@ -51,14 +51,7 @@
    <item>
     <widget class="QPushButton" name="aanpassen">
      <property name="text">
-      <string>Verwijderen</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QPushButton" name="pushButton_3">
-     <property name="text">
-      <string>Aanpassen</string>
+      <string>Verwijder geselecteerde rij(en)</string>
      </property>
     </widget>
    </item>
@@ -76,6 +69,13 @@
         </size>
        </property>
       </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>Menufile importeren</string>
+       </property>
+      </widget>
      </item>
      <item>
       <widget class="QPushButton" name="save">

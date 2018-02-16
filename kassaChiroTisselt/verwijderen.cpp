@@ -17,8 +17,7 @@ void Verwijderen::on_pushButton_clicked()
     this->close();
 }
 
-void Verwijderen::on_pushButton_2_clicked()
-{
+void Verwijderen::reset() {
     int numRows = 0;
 
     //Logfile leegmaken
@@ -69,4 +68,9 @@ void Verwijderen::on_pushButton_2_clicked()
 
     QMessageBox::warning(0, "Gelukt", "De data werd gereset!");
     this->close();
+}
+
+void Verwijderen::on_pushButton_2_clicked()
+{
+    reset();
 }

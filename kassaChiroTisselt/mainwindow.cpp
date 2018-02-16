@@ -42,9 +42,9 @@ void MainWindow::updateMenu()
     this->ui->menuLijst->setColumnWidth(0, 300);
 
     //Menu file openen
-    if(!file.open(QIODevice::ReadOnly))
+    if(!file.open(QIODevice::ReadWrite))
     {
-        QMessageBox::warning(0, "Error!", "Kon hoofdmenu file niet openen! Maak een file aan genaamd menu.txt en plaats deze in dezelfde dir als deze software. Structuur: NAAM; PRIJS -> 1 product per lijn.");
+        QMessageBox::warning(0, "Error!", "Kon hoofdmenu file niet aanmaken! Maak handmatig een file aan genaamd menu.txt en plaats deze in dezelfde dir als deze software. Structuur: NAAM; PRIJS -> 1 product per lijn.");
         this->close();
         exit(100);
         return;
@@ -224,4 +224,9 @@ void MainWindow::on_actionLogs_verwijderen_triggered()
 void MainWindow::on_actionMake_Backup_triggered()
 {
     Backup *back = new Backup();
+}
+
+void MainWindow::on_actionSluiten_triggered()
+{
+    exit(0);
 }

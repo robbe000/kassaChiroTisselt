@@ -44,6 +44,8 @@ private slots:
 
     void on_actionMake_Backup_triggered();
 
+    void on_actionSluiten_triggered();
+
 private:
     Ui::MainWindow *ui;
     QList<QLineEdit*> m_aantal;

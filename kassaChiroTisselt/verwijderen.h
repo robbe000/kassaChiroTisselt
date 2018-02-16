@@ -17,6 +17,7 @@ class Verwijderen : public QDialog
 
 public:
     explicit Verwijderen(QWidget *parent = 0);
+    void reset();
     ~Verwijderen();
 
 private slots:
