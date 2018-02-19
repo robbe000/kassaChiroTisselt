@@ -9,7 +9,8 @@ menu::menu(QWidget *parent) :
     ui(new Ui::menu)
 {
     ui->setupUi(this);
-    this->setWindowTitle("Menu bewerken (WERKT NOG NIET)");
+    this->setWindowTitle("Menu bewerken");
+    this->setWindowIcon(QIcon(":/chiro_logo.jpg"));
     QMessageBox::warning(0, "Opgelet!" , "Bij het doorvoeren van aanpassing zullen alle logfile's gereset worden!");
     updateMenu();
 }

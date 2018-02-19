@@ -8,6 +8,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     this->setWindowTitle("Kassa Chiro Tisselt");
+    this->setWindowIcon(QIcon(":/chiro_logo.jpg"));
     updateMenu();
 }
 

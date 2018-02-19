@@ -6,8 +6,9 @@ aantallen::aantallen(QWidget *parent) :
     ui(new Ui::aantallen)
 {
     ui->setupUi(this);
-    updateTabel();
+    this->setWindowIcon(QIcon(":/chiro_logo.jpg"));
     this->setWindowTitle("Aantallen");
+    updateTabel();
 }
 
 aantallen::~aantallen()

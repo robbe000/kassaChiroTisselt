@@ -6,6 +6,8 @@ afrekenen::afrekenen(QWidget *parent) :
     ui(new Ui::afrekenen)
 {
     ui->setupUi(this);
+    this->setWindowIcon(QIcon(":/chiro_logo.jpg"));
+    this->setWindowTitle("Afrekenen");
 }
 
 afrekenen::~afrekenen()

@@ -6,6 +6,8 @@ Verwijderen::Verwijderen(QWidget *parent) :
     ui(new Ui::Verwijderen)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Verwijderen");
+    this->setWindowIcon(QIcon(":/chiro_logo.jpg"));
 }
 
 Verwijderen::~Verwijderen()

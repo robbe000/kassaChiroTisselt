@@ -8,6 +8,8 @@ QT       += core gui
 QT       += core
 QT       += network
 
+RC_ICONS += logo.ico
+
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = kassaChiroTisselt
@@ -37,3 +39,8 @@ FORMS    += mainwindow.ui \
     logscherm.ui \
     afrekenen.ui \
     verwijderen.ui
+
+DISTFILES +=
+
+RESOURCES += \
+    recorce.qrc

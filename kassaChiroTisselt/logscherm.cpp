@@ -6,6 +6,8 @@ logScherm::logScherm(QWidget *parent) :
     ui(new Ui::logScherm)
 {
     ui->setupUi(this);
+    this->setWindowIcon(QIcon(":/chiro_logo.jpg"));
+    this->setWindowTitle("Logscherm");
     updateList();
 }
 

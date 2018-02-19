@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>chiro_logo.jpg</file>
+        <file>logo.ico</file>
+    </qresource>
+</RCC>
